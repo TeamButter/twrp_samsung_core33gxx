@@ -1,0 +1,9 @@
+/boot		emmc		/dev/block/platform/sprd-sdhci.3/by-name/KERNEL 
+/recovery	emmc		/dev/block/platform/sprd-sdhci.3/by-name/RECOVERY				flags=backup=1
+/data		ext4		/dev/block/platform/sprd-sdhci.3/by-name/userdata		wait,length=-16384
+/system		ext4		/dev/block/platform/sprd-sdhci.3/by-name/system
+/cache		ext4		/dev/block/platform/sprd-sdhci.3/by-name/CSC 				flags=backup=1;display=cache
+/efs		emmc		/dev/block/platform/sprd-sdhci.3/by-name/efs 				flags=backup=1;display=EFS
+/modemcp	emmc		/dev/block/platform/sprd-sdhci.3/by-name/MODEM				flags=backup=1;display="ModemCP"
+/modemdsp	emmc		/dev/block/platform/sprd-sdhci.3/by-name/WDSP				flags=backup=1;display="ModemDSP"
+/external_sd	vfat		/dev/block/mmcblk1p1	/dev/block/mmcblk1	flags=display="Micro SD";storage;wipeingui;removable
