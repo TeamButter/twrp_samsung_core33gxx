@@ -27,7 +27,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := omni_core33gxx
-PRODUCT_DEVICE := core33g
+PRODUCT_DEVICE := core33gxx
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-G360H
-
