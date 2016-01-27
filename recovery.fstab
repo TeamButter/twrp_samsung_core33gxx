@@ -1,6 +1,6 @@
 /boot		emmc		/dev/block/mmcblk0p20 
 /recovery	emmc		/dev/block/mmcblk0p21				flags=backup=1
-/data		ext4		/dev/block/mmcblk0p25		wait,length=-16384
+/data		ext4		/dev/block/mmcblk0p25		                wait,length=-16384
 /system		ext4		/dev/block/mmcblk0p23
 /cache		ext4		/dev/block/mmcblk0p22				flags=backup=1;display=cache
 /efs		emmc		/dev/block/mmcblk0p17 				flags=backup=1;display=EFS
